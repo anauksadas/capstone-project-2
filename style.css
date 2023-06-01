@@ -1,0 +1,70 @@
+body{
+    background-color: #EEE3CB;
+}
+
+.hero{
+    background-image: url(./assets/images/pretty-sky-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:650px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,h2{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.lead{
+    font-weight:400;
+}
+
+svg{
+    height:30px;
+    width:30px;
+    margin-left: 2px;
+    border: 3px solid #967E76;
+    border-radius: 5px;
+    padding:3px;
+}
+
+.card{
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-me{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin:5px;
+}
+.contact-text{
+    text-align:center;
+    padding: 5px;
+
+}
+
+.contact-message{
+    
+    padding:5px;
+    background-color: #967E76;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:5px;
+}
+
+.btn{
+    border: 5px solid #967E76;
+    border-radius:5px;
+    margin:5px;
+    padding:10px;
+}
+    
+
+
+
